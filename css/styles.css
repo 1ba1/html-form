@@ -1,0 +1,322 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* END OF RESET FILE */
+
+body {
+  background-color: #eceef1;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  color: #555;
+}
+
+nav {
+  text-align: right;
+}
+
+nav span {
+  line-height: 16px;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  top: -12px;
+  right: 34px;
+  width: 172px;
+}
+
+nav button {
+  background: url(../assets/lock2.png) 16px center/10% no-repeat #0077C5;
+  border: 1px solid #000;
+  font-size: 14px;
+  padding: 2px;
+  position: relative;
+  top: -20px;
+  right: 30px;
+  width: 100px;
+  height: 32px;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  vertical-align: middle;
+}
+
+header img:nth-of-type(1) {
+  display: block;
+  margin: 80px auto 18px auto;
+}
+
+header img:nth-child(even) {
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+}
+
+header img:last-of-type {
+  position: relative;
+  bottom: 2px;
+}
+
+#container {
+  background-color: #fff;
+  border: 1px solid #bbb;
+  border-radius: 2px;
+  margin: 20px auto;
+  text-align: center;
+  padding-top: 30px;
+  width: 380px;
+  height: 648px;
+}
+
+#container h1 {
+  font-size: 24px;
+  line-height: 25px;
+}
+
+#container h1:nth-of-type(2) {
+  margin-bottom: 20px;
+}
+
+#container p {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+#container p:nth-of-type(2) a {
+  font-size: 12px;
+}
+
+#container p:nth-of-type(3) {
+  margin-top: 40px;
+}
+
+#container p:nth-last-child(-n + 4) {
+  font-style: italic;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form input {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  margin: 12px auto 0 auto;
+  padding: 6px;
+  width: 320px;
+}
+
+form input:focus {
+  box-shadow: 0 0 10px lightblue;
+  border: none;
+}
+
+form label {
+  font-size: 14px;
+  margin: 35px 0 0 30px;
+  text-align: left;
+  width: 200px;
+}
+
+form label:nth-of-type(1) {
+  margin-top: 25px;
+}
+
+form input, form label {
+  display: block;
+}
+
+form span {
+  font-size: 10px;
+  position: relative;
+  right: 50px;
+}
+
+#password {
+  background: url(../assets/lock.png) 280px center/7% no-repeat;
+}
+
+button {
+  background: url(../assets/lock2.png) 90px center/4% no-repeat #0077C5;
+  border: #0077C5;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 30px;
+  text-transform: capitalize;
+  text-indent: 15px;
+  width: 320px;
+  height: 44px;
+}
+
+#containerFooter {
+  background-color: #eceef1;
+  margin-top: 25px;
+  padding: 18px;
+}
+
+#containerFooter span {
+  font-size: 10px;
+  color: #444;
+  opacity: 0.6;
+}
+
+footer {
+  margin: 30px 0 20px 0;
+}
+
+footer p {
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+}
+
+footer p a {
+  color: #555;
+  display: inline-block;
+  text-decoration: none;
+  text-indent: 10px;
+}
+
+footer p a:nth-of-type(1) {
+  text-indent: inherit;
+}
