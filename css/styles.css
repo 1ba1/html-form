@@ -218,7 +218,6 @@ header img:nth-of-type(3) {
 }
 
 header img:nth-of-type(4) {
-  //margin-left: -80px;
   animation: fadeIn 2s 2s forwards, moveQB 0.5s 2s forwards;
 }
 
@@ -279,7 +278,7 @@ header img:nth-of-type(7) {
   background-color: #fff;
   border: 1px solid #bbb;
   border-radius: 2px;
-  margin: 120px auto;
+  margin: 120px auto 0 auto;
   text-align: center;
   padding-top: 30px;
   width: 380px;
