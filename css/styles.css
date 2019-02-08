@@ -190,11 +190,6 @@ header img:nth-child(odd):not(:first-child) {
   top: 140px;
 }
 
-/* header img:last-of-type {
-  position: relative;
-  bottom: 2px;
-} */
-
 /* HEADER IMG ANIMATION */
 
 header img {
